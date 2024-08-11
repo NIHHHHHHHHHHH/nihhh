@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nihhh/static/css/main.10128d93.css",
+    "main.js": "/nihhh/static/js/main.5faca171.js",
+    "static/media/mumbai.logo.png": "/nihhh/static/media/mumbai.logo.f3b86758cb58160d9880.png",
+    "static/media/logo.png": "/nihhh/static/media/logo.b675e6e77b535eb3fdc2.png",
+    "static/media/My Resume.pdf": "/nihhh/static/media/My Resume.03fb4ccbff3fb6716c74.pdf",
+    "index.html": "/nihhh/index.html",
+    "main.10128d93.css.map": "/nihhh/static/css/main.10128d93.css.map",
+    "main.5faca171.js.map": "/nihhh/static/js/main.5faca171.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10128d93.css",
+    "static/js/main.5faca171.js"
+  ]
+}
