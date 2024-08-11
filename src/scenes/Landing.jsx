@@ -1,5 +1,5 @@
 
-import resume from "../assets/NIHAL RESUME.pdf";
+import resume from "../assets/My Resume.pdf";
 import { GoArrowUpRight } from "react-icons/go";
 import { motion } from "framer-motion";
 import { ReactTyped as Typed } from 'react-typed';

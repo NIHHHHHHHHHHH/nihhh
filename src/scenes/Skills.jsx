@@ -13,7 +13,7 @@ const skills = [
     { name: 'GitHub', icon: <FaGithub /> },
     { name: 'Python', icon: <FaPython  /> },
     { name: 'Firebase', icon: <SiFirebase /> },
-    { name: 'REST API', icon: <SiFirebase /> },
+   
     
 ];
 
@@ -27,7 +27,7 @@ const Skills = () => {
                 {skills.map((skill, index) => (
                     <div
                         key={index}
-                        className="flex flex-col items-center bg-gray-900 p-4 rounded-md border border-white transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+                        className="flex flex-col items-center md:p-2 sm:p-3 lg:p-4 rounded-md border border-white transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
                     >
                         <div className="text-4xl mb-2">{skill.icon}</div>
                         <span className="text-md sm:text-xl font-helvetica tracking-wide">{skill.name}</span>

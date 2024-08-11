@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 import logo from "../assets/logo.png";
-import resume from "../assets/NIHAL RESUME.pdf";
+import resume from "../assets/My Resume.pdf";
 import HamburgerButton from "../components/HamburgerButton";
 
 const Link = ({ page, setSelectedPage, onClick }) => {
@@ -77,7 +77,7 @@ const Navbar = ({ setSelectedPage }) => {
 
                 {/* MOBILE MENU POPUP */}
                 <div className={`fixed font-helvetica tracking-wide right-0 bottom-0 h-full w-full text-white transition-all duration-500 transform ${isMenuToggled ? "opacity-100 bg-darkgrey bg-opacity-60 backdrop-blur-xl visible" : "opacity-0 invisible hover:text-yellow-300"}`}>
-                    <div className="flex flex-col gap-[23px] ml-5 text-[27px] mt-20">
+                    <div className="flex flex-col gap-[23px] ml-5 text-[27px] mt-20 ">
                         <Link
                             page="Projects"
                             setSelectedPage={setSelectedPage}
