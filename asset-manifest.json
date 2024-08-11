@@ -1,16 +1,20 @@
 {
   "files": {
     "main.css": "/nihhh/static/css/main.10128d93.css",
-    "main.js": "/nihhh/static/js/main.5faca171.js",
+    "main.js": "/nihhh/static/js/main.49ac7bc9.js",
     "static/media/mumbai.logo.png": "/nihhh/static/media/mumbai.logo.f3b86758cb58160d9880.png",
+    "static/media/WEATHER.png": "/nihhh/static/media/WEATHER.e70355a443d900952a74.png",
+    "static/media/DEAF.png": "/nihhh/static/media/DEAF.30e32ae097a9213918b6.png",
+    "static/media/ELECTROBIKE.png": "/nihhh/static/media/ELECTROBIKE.ed9326fed818e479dcb1.png",
+    "static/media/evoltt.png": "/nihhh/static/media/evoltt.c10f7701c8dda1169f33.png",
     "static/media/logo.png": "/nihhh/static/media/logo.b675e6e77b535eb3fdc2.png",
     "static/media/My Resume.pdf": "/nihhh/static/media/My Resume.03fb4ccbff3fb6716c74.pdf",
     "index.html": "/nihhh/index.html",
     "main.10128d93.css.map": "/nihhh/static/css/main.10128d93.css.map",
-    "main.5faca171.js.map": "/nihhh/static/js/main.5faca171.js.map"
+    "main.49ac7bc9.js.map": "/nihhh/static/js/main.49ac7bc9.js.map"
   },
   "entrypoints": [
     "static/css/main.10128d93.css",
-    "static/js/main.5faca171.js"
+    "static/js/main.49ac7bc9.js"
   ]
 }
