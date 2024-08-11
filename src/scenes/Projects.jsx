@@ -161,9 +161,10 @@ import { useRef, useEffect, useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 
+
 const cards = [
   {
-   url: "../assets/evoltt.png",
+   url: require("../assets/evoltt.png"),
     title: "EVOLT",
     description: "Developed using React and Tailwind CSS for a seamless and adaptive user experience across all devices. Leveraged Firebase for secure authentication, real-time database, and hosting. Demonstrated expertise in modern web technologies and deployment with the creation of Evolt.",
     tools: "Reactjs &nbsp;&nbsp; TailwindCss &nbsp;&nbsp; Firebase",
@@ -173,7 +174,7 @@ const cards = [
     shadow: "yes",
   },
   {
-   url: "../assets/DEAF.png",
+   url: require("../assets/DEAF.png"),
     title: "DEAF VOICE",
     description: "Created a video calling platform specifically for sign language communication. Utilized WebRTC, JavaScript, and WebSocket for real-time video calls with integrated sign language features. Provided an innovative solution for accessible and effective communication.",
     tools: "HTML &nbsp;&nbsp;CSS &nbsp;&nbsp;JAVASCRIPT &nbsp;PYTHON ",
@@ -183,7 +184,7 @@ const cards = [
     shadow: "yes",
   },
   {
-   url: "../assets/ELECTROBIKE.png",
+   url: require("../assets/ELECTROBIKE.png"),
     title: "ELECTROBIKE",
     description: "Designed and developed a responsive and interactive website for an electric bike company. Focused on a modern, user-friendly interface with custom CSS for a polished look and JavaScript for enhanced user interactions. Included dynamic content and smooth navigation.",
     tools: "HTML &nbsp;&nbsp;CSS &nbsp;&nbsp;JAVASCRIPT",
@@ -193,7 +194,7 @@ const cards = [
     shadow: "yes",
   },
   {
-   url: "../assets/WEATHER.png",
+   url: require("../assets/WEATHER.png"),
     title: "WEATHER APP",
     description:"Built a weather web app using React and a weather API to provide real-time weather updates. Focused on a user-friendly interface with dynamic features for accurate information and a responsive design for a consistent experience across devices.",
     tools: "React &nbsp;&nbsp; WeatherApi ",
