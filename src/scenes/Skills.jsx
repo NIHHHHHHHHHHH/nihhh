@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3Alt, FaJs,FaBootstrap, FaReact, FaNodeJs, FaGitAlt, FaGithub,FaPython  } from 'react-icons/fa';
-import { SiTailwindcss, SiFirebase } from 'react-icons/si';
+import { SiTailwindcss, SiFirebase, SiMongodb } from 'react-icons/si';
 
 const skills = [
     { name: 'HTML', icon: <FaHtml5 /> },
@@ -13,6 +13,8 @@ const skills = [
     { name: 'GitHub', icon: <FaGithub /> },
     { name: 'Python', icon: <FaPython  /> },
     { name: 'Firebase', icon: <SiFirebase /> },
+    { name: 'MongoDB', icon: <SiMongodb /> },
+
    
     
 ];
