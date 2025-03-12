@@ -7,45 +7,36 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const cards = [
   {
-   url: require("../assets/evoltt.png"),
+    url: require("../assets/BALIHANS.jpg"),
+     title: "BALIHANS",
+     description: "Developed and deployed a full-stack web application using the MERN stack. Integrated Cloudinary for efficient media hosting andoptimized performance for a seamless user experience. Hosted the application on Google Cloud Platform (GCP)using Cloud Run for backend and frontend services. Built a feature-rich, responsive website",
+     tools: "REACTJS &nbsp;&nbsp;TAILWINDCSS &nbsp;&nbsp;NODEJS  &nbsp;&nbsp;EXPRESSJS &nbsp;&nbsp;MONGODB &nbsp;&nbsp;GCP",
+     link: "https://celadon-paletas-e08a1f.netlify.app/",
+     id: 1,
+     color: "text-gray-300",
+     shadow: "yes",
+   },
+  {
+   url: require("../assets/EVOLT.jpg"),
     title: "EVOLT",
     description: "Developed using React and Tailwind CSS for a seamless and adaptive user experience across all devices. Leveraged Firebase for secure authentication, real-time database, and hosting. Demonstrated expertise in modern web technologies and deployment with the creation of Evolt.",
     tools: "Reactjs &nbsp;&nbsp; TailwindCss &nbsp;&nbsp; Firebase",
     link: "https://ecocharge-18a51.web.app/",
-    id: 1,
-    color: "text-gray-300",
-    shadow: "yes",
-  },
-  {
-   url: require("../assets/DEAF.png"),
-    title: "DEAF VOICE",
-    description: "Created a video calling platform specifically for sign language communication. Utilized WebRTC, JavaScript, and WebSocket for real-time video calls with integrated sign language features. Provided an innovative solution for accessible and effective communication.",
-    tools: "HTML &nbsp;&nbsp;CSS &nbsp;&nbsp;JAVASCRIPT &nbsp;PYTHON ",
-    link: "https://bespoke-baklava-cc2b6c.netlify.app/",
     id: 2,
     color: "text-gray-300",
     shadow: "yes",
   },
   {
-   url: require("../assets/ELECTROBIKE.png"),
-    title: "ELECTROBIKE",
-    description: "Designed and developed a responsive and interactive website for an electric bike company. Focused on a modern, user-friendly interface with custom CSS for a polished look and JavaScript for enhanced user interactions. Included dynamic content and smooth navigation.",
-    tools: "HTML &nbsp;&nbsp;CSS &nbsp;&nbsp;JAVASCRIPT",
-    link: "https://celadon-paletas-e08a1f.netlify.app/",
+   url: require("../assets/DEAFVOICE.jpg"),
+    title: "DEAF VOICE",
+    description: "Created a video calling platform specifically for sign language communication. Utilized WebRTC, JavaScript, and WebSocket for real-time video calls with integrated sign language features. Provided an innovative solution for accessible and effective communication.",
+    tools: "HTML &nbsp;&nbsp;CSS &nbsp;&nbsp;JAVASCRIPT &nbsp;PYTHON ",
+    link: "https://bespoke-baklava-cc2b6c.netlify.app/",
     id: 3,
     color: "text-gray-300",
     shadow: "yes",
   },
-  {
-   url: require("../assets/WEATHER.png"),
-    title: "WEATHER APP",
-    description:"Built a weather web app using React and a weather API to provide real-time weather updates. Focused on a user-friendly interface with dynamic features for accurate information and a responsive design for a consistent experience across devices.",
-    tools: "React &nbsp;&nbsp; WeatherApi ",
-    link: "https://fabulous-sawine-dd09de.netlify.app/",
-    id: 4,
-    color: "text-gray-300",
-    shadow: "yes",
-  },
+
 ];
 
 const Projects = () => {
@@ -98,7 +89,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="relative">
-      <div className="flex items-center justify-between px-5 md:mx-auto md:w-[1200px] my-14">
+      <div className="flex items-center justify-between px-5 md:mx-[440px] md:w-[1200px] my-14">
         <p className="text-[1.68rem] font-helvetica tracking-wide z-10 text-start text-yellow-300">
           PROJECTS
         </p>
