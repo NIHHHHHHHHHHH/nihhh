@@ -1,11 +1,10 @@
-import { FaHtml5, FaCss3Alt, FaJs,FaBootstrap, FaReact, FaNodeJs, FaGitAlt, FaGithub,FaPython  } from 'react-icons/fa';
-import { SiTailwindcss, SiFirebase, SiMongodb } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub,FaPython, } from 'react-icons/fa';
+import { SiTailwindcss, SiFirebase, SiMongodb, SiGooglecloud  } from 'react-icons/si';
 
 const skills = [
     { name: 'HTML', icon: <FaHtml5 /> },
     { name: 'CSS', icon: <FaCss3Alt /> },
     { name: 'JavaScript', icon: <FaJs /> },
-    { name: 'Bootstrap', icon: <FaBootstrap /> },
     { name: 'React', icon: <FaReact /> },
     { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
     { name: 'Node.js', icon: <FaNodeJs /> },
@@ -14,6 +13,7 @@ const skills = [
     { name: 'Python', icon: <FaPython  /> },
     { name: 'Firebase', icon: <SiFirebase /> },
     { name: 'MongoDB', icon: <SiMongodb /> },
+    { name: 'Google Cloud Platform', icon: < SiGooglecloud /> },
 
    
     

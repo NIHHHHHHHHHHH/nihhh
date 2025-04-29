@@ -11,7 +11,7 @@ const cards = [
      title: "BALIHANS",
      description: "Developed and deployed a full-stack web application using the MERN stack. Integrated Cloudinary for efficient media hosting andoptimized performance for a seamless user experience. Hosted the application on Google Cloud Platform (GCP)using Cloud Run for backend and frontend services. Built a feature-rich, responsive website",
      tools: "REACTJS &nbsp;&nbsp;TAILWINDCSS &nbsp;&nbsp;NODEJS  &nbsp;&nbsp;EXPRESSJS &nbsp;&nbsp;MONGODB &nbsp;&nbsp;GCP",
-     link: "https://celadon-paletas-e08a1f.netlify.app/",
+     link: "https://balihans.com/",
      id: 1,
      color: "text-gray-300",
      shadow: "yes",
